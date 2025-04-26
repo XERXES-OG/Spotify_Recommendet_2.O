@@ -135,4 +135,4 @@ def metadataBasedRecommendations(inputSongName, musicDf, numRecommendations=5):
         ['Track Name', 'Artists', 'Album Name', 'Release Date', 'Track ID', 'Popularity']]
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='127.0.0.0:5000', debug=True)
